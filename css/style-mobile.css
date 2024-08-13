@@ -1,0 +1,48 @@
+/* header */
+header nav h1{
+float: none;
+text-align: center;
+}
+header nav ul{
+  float: none;
+}
+header nav ul li{
+  width: 100%;
+}
+header nav ul li a{
+  padding: 0.625rem;
+  text-align: center;
+}
+.container{
+width:100%;
+  float: none;
+  padding: 30px 30px;
+}
+.reservation{
+  float: none;
+  padding: 30px 30px;
+}
+
+.feature{
+  width: 100%;
+}
+.where-txt{
+width:100%;
+padding: 1.875rem 1.875rem;
+}
+.where-img{
+  width: 100%;
+  text-align: center;
+}
+.contact{
+  max-width: 400rem;
+  float: none;
+  padding: 1.875rem 1.875rem;
+  text-align: center;
+}
+.contact-from-container{
+  width: 100%;
+}
+.vp{
+  height: 900px;
+}

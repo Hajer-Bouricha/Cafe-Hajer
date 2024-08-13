@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ContactCafe</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" media="only screen and (max-width:500px)" href="./css/style-mobile.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1> <a href="./index.html"></a> CAFE PINGUCODER</h1>
+      <ul>
+              <li><a href="./index.html">Accueil</a></li>
+              <li><a href="./where.html">Nous trouver</a></li>
+              <li><a class="active" href="./contact.html">Contact</a></li>
+      </ul>
+      </nav>
+  </header>
+<section class="contact">
+  <div class="contact-from-container">
+    <form action="">
+      <h1 class="underline">Une question ❓ Contactez nous</h1>
+      <label class="my-20" for="name">Nom</label>
+      <input type="text" name="name" id="name">
+      <label class="my-20" for="email">Email</label>
+      <input type="text" name="email" id="email">
+      <label class="my-20" for="service" >Service</label>
+      <select name="service" id="service" class="service">
+        <option value="Service">Services</option>
+        <option value="admission">Admission</option>
+        <option value="autres">Autres</option>
+      </select>
+
+      <label class="my-20" for="question">Question et remarques</label>
+      <textarea name="question" id="question"></textarea>
+      <button class="btn btn-dark my-20">SOUMETTRE</button>
+    </form>
+    
+  </div>
+</section>
+
+
+  <footer>Copyright © - PPINGUCODER 🐧 -2022</footer>
+</body>
+</html>
